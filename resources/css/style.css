@@ -1,7 +1,14 @@
+/*
+html element ->  element{}
+class="name" -> .name {} more specific
+id="name" -> #name {} most specific
+*/
+
 * {
-  font-family: 'Courier New', serif;
+  font-family: Arial, sans-serif; /* web safe font */
 }
 
+                                 /* NavBar */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -30,6 +37,53 @@
   color: white;
 }
 
-footer {
+                             /* Header */
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../resources/images/bigbend.jpg);
+}
+
+                          /* Portrait */
+.portrait {
+  height: 256px;
+  width: 256px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+                             /* Links */
+.links {
+  float: left
+  padding: 10px;
+}
+
+i {
+  font-size: 64px;
+}
+
+.bi-envelope-fill {
+  font-size: 48px !important;
+  padding: 0 8px;
   color: #008B8B;
+  background-color: #ECECEC;
+  height: 64px;
+  width: 64px;
+  border-radius: 8px;
+}
+
+.bi-linkedin {
+  color: #0e76a8;
+}
+
+.bi-github {
+  color: black;
+}
+
+.aws {
+  float: right !important;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin-right: 8px;
 }

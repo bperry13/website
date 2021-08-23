@@ -1,7 +1,8 @@
-I created brettperry.info as a project portfolio for web development. I currently
-have a continuous integration setup using Atom, GitHub, and AWS CodePipeline so
-when I accept the pull request the changes are deployed automatically.
-
+I created brettperry.info as a portfolio project for web development. I
+am currently using Atom, Git, Github, and AWS to build it. There is a
+continuous integration setup using GitHub and AWS CodePipeline so when I
+merge the pull request in GitHub the changes are deployed automatically
+in AWS.
 
 Please feel free to provide feedback, advice, or ask questions.
 
