@@ -8,4 +8,6 @@ id="name" -> #name {} most specific
   font-family: Arial, sans-serif; /* web safe font */
 }
 
-
+.links {
+  float: right;
+}
