@@ -8,6 +8,12 @@ id="name" -> #name {} most specific
   font-family: Arial, sans-serif; /* web safe font */
 }
 
-.links {
-  flex
+html, body {
+  height: 100%;
+  font-size: 1rem;
+}
+
+gradient {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }

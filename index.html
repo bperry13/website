@@ -1,196 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <!-- Head -->
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="./resources/css/style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brett Perry | Software Engineer</title>
+    <link rel="stylesheet" href="./resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/css/style.css"/>
   </head>
-
-
   <!-- Body -->
   <body>
-    <!-- Nav Bar -->
-    <nav>
-      <div class="container mt-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-            <i class="bi-github" role="img" aria-label="GitHub"></i>
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-envelope-fill"></i>
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Brett Perry</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item">
+
+            </li>
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-
-
-
-    <div class="container  my-5">
-      <h1>Brett Perry</h1>
-      <p class="lead">Software Engineer in search of freelance web development work!</p>
-    </div>
-
-
-    <!-- Work Experience-->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <h3 class="mb-3">Work Experience</h3>
-          <div class="card mb-3"> <!-- Experience Card 1 -->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Dell Technologies</h4>
-                <div><strong>2017-Current</strong></div>
-                Account Manager helping customers across all verticals achieve digital transformation.
-              </div> 
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">Work in a team of engineers and specialists responsible for a $30M annual quota</li>
-                <li class="list-group-item">Focus on workforce solutions group and issue resolution</li>
-                <li class="list-group-item">VMware subject matter expert for my team</li>
-              </ul>
-            </div>
+    <!-- Header -->
+    <header class="page-header gradient">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            Welcome to my website!
           </div>
-          <div class="card mb-3"> <!-- Experience Card 2 -->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Cato Group</h4>
-                <div><strong>2015-2017</strong></div>
-                Account Manager helping customers across all verticals achieve digital transformation.
-              </div> 
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">Work in a team of engineers and specialists responsible for a $30M annual quota</li>
-                <li class="list-group-item">Focus on workforce solutions group and issue resolution</li>
-                <li class="list-group-item">VMware subject matter expert for my team</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card"> <!-- Experience Card 3 -->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Reliance Steel & Aluminum</h4>
-                <div><strong>2011-2015</strong></div>
-                Account Manager selling raw steel and custom cuts to manufacturing companies
-              </div> 
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">1</li>
-                <li class="list-group-item">2</li>
-                <li class="list-group-item">3</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Certificates-->
-        <div class="col">
-          <h3 class="mb-3">Certificates</h3>
-            <div class="card mb-3"> <!-- Certificate Card 1 Codecademy -->
-              <div class="card-body">
-                <div class="mx-3">
-                  <h4>Codecademy</h4>
-                </div>
-              </div>
-            </div>
-            <div class="card"> <!-- Certificate Card 2 AWS -->
-              <div class="card-body">
-                <div class="mx-3">
-                  <h4>Amazon Web Services</h4>
-                </div>
-              </div>
-            </div>
-        </div>
-        <!-- Skills -->
-        <div class="col">
-          <h3 class="mb-3">Skills</h3>
-          <div class="card mb-3"> <!-- Skills Card 1 Front End -->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Front End</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap 5</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3"> <!-- Skills Card 2 Back End -->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Back End</h4>
-                <ul>
-                  <li>Java</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="card"> <!-- Skills Card 3 Tools-->
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Tools</h4>
-                <ul>
-                  <li>Git</li>
-                  <li>GitHub</li>
-                  <li>VS Code</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container mt-5">
-          <!-- Portfolio -->
-          <h3>Portfolio</h3>
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="card m-b-3">
-                <img src="resources/images/bigbend.jpg" class="card-img-top">
-                <div class="card-body">
-                  <h5>brettperry.info</h5>
-                  <p class="card-text">My portfolio!</p>
-                  <a href="#" class="btn btn-primary">View Website</a>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img src="" alt="Header image">
           </div>
         </div>
       </div>
+    </header>
 
-      <footer>
-        <div class="position-relative">
-          <div class="position-end">
-            <img src="./resources/images/powered_by_aws_logo.png" alt="" height="64px" width="64px">
-          </div>
-        </div>
-      </footer>
-    </div>
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
+    <script src="./resources/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
