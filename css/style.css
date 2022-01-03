@@ -1,0 +1,169 @@
+/*
+html element ->  element {}
+class="name" -> .name {} more specific
+id="name" -> #name {} most specific
+*/
+
+/* 
+Color Scheme
+Stormy Sea #335252 - buttons
+Fog #D4DDE1 - background
+Rust #AA4B41 - button text
+Charcoal #2D3033 - text
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+:root {
+  --background: #FFF; /* warm white */
+  --text: #323030; /* neon red */
+  --button: #FFF; /* cinder */
+  --button-highlight: #BBC3C6; /* medium gray */
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+html {
+  background-color: var(--background);
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  display: none;
+}
+
+.logo {
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.logo, a {
+  color: var(--text);
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.nav {
+  flex: 1;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: var(--text);
+  font-size: 1.0rem;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: red solid;
+  border-radius: 10px;
+  
+}
+
+.flex-container-1 .flex-box-1 {
+  flex: 1;
+  padding: 20px;
+  border: red solid;
+  border-radius: 10px;
+}
+
+.flex-container-1 .flex-box-2 {
+  flex: 1;
+  border: red solid;
+  border-radius: 10px;
+}
+
+.portrait {
+  border-radius: 100%;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+button {
+  transition: all 0.3s ease 0s;
+  background-color: var(--button);
+  color: var(--background);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.3s ease 0s;
+  background-color: var(--button-highlight);
+  color: var(--background);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  
+header {
+  display: none;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  text-decoration: none;
+}
+
+footer .nav-foot {
+
+}
+
+}
+
+
+/* ------------------------------------------------------------------- 
+
+------------------------------------------------
+FlexBox Properties
+------------------------------------------------
+
+PARENT 
+display: flex | inline-flex;
+flex-direction: row | column;
+flex-wrap: wrap | nowrap | wrapreverse; 
+justify-content: flex-start | flex-end | center | space-between | ; 
+align-items: flex-start | flex-end | center; 
+align-content: flex-start | flex-end | center; 
+
+CHILD 
+flex: <integer>;
+order: <integer>;
+flex-grow: <number>;
+flex-shrink: <number>;
+flex-basis: <length>;
+align-self: flex-start | flex-end | center; 
+
+
+-------------------------------------------------
+Tools
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+*/
