@@ -1,0 +1,135 @@
+/*
+html element ->  element {}
+class="name" -> .name {} more specific
+id="name" -> #name {} most specific
+*/
+
+/* 
+Color Scheme
+Stormy Sea #335252 - buttons
+Fog #D4DDE1 - background
+Rust #AA4B41 - button text
+Charcoal #2D3033 - text
+*/
+
+
+:root {
+  --warm-white: #FFF; /* warm white */
+  --cinder: #323030; /* cinder */
+  --button-highlight: #BBC3C6; /* medium gray */
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/********************** Nav Bar **********************/
+header {
+  background-color: #36393e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5% 15px 5%;
+}
+
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+/********************** Body **********************/
+
+.background {
+  background-image: url('/resources/images/bigbend.jpg');
+  box-shadow: inset 0 0 0 100vmax rgba(54, 57, 62, .7);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  height: 320px;
+  width: 100%;
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  color: #FFF;
+}
+
+/********************** About Me **********************/
+
+.flex-container-1 {
+  background-color: #36393e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: red solid;
+}
+
+.flex-container-1 .flex-box-1 {
+  color: #FFF;
+  border: yellow solid;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+
+
+/* ------------------------------------------------------------------- 
+
+------------------------------------------------
+FlexBox Properties
+------------------------------------------------
+
+CONTAINERS (PARENT)
+display: flex | inline-flex;
+flex-direction: row | column;
+flex-wrap: wrap | nowrap | wrapreverse; 
+justify-content: flex-start | flex-end | center | space-between | ; 
+align-items: flex-start | flex-end | center; 
+align-content: flex-start | flex-end | center; 
+
+ITEMS (CHILD) 
+flex: <integer>;
+order: <integer>;
+flex-grow: <number>;
+flex-shrink: <number>;
+flex-basis: <length>;
+align-self: flex-start | flex-end | center; 
+
+TERMS
+main axis is horizontal for a row and vertical for a column
+cross axis is perpendicular to main axis
+
+
+
+-------------------------------------------------
+Tools
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+*/
