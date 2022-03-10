@@ -8,57 +8,92 @@
     <title>Brett Perry</title>
     <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <!-- Body -->
+  <!---------------------------- Body ---------------------------->
   <body>
-    <!-- Header Container w/ Nav Bar -->
+    <!---------------------------- Header Container w/ Nav Bar ---------------------------->
     <header>
-      <img class="logo" src="./resources/bootstrap/icons/grid-1x2-fill.svg" alt="BP">
+      <img class="logo" src="./resources/images/grid-1x2-fill.svg" alt="BP">
       <nav>
         <ul class="nav_links">
           <li>
             <a href="https://github.com/bperry13">
-              <img src="./resources/bootstrap/icons/github.svg" alt="GitHub">
+              <img src="./resources/images/github.svg" alt="GitHub">
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/brettjp/">
-              <img src="./resources/bootstrap/icons/linkedin.svg" alt="LinkedIn">
+              <img src="./resources/images/linkedin.svg" alt="LinkedIn">
             </a>
           </li>
           <li>
             <a href="mailto: brettperry7@gmail.com">
-              <img src="./resources/bootstrap/icons/envelope-fill.svg" alt="eMail">
+              <img src="./resources/images/envelope-fill.svg" alt="eMail">
             </a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <!-- Background Container -->
+    <!---------------------------- Background Container ---------------------------->
     <div class="background">
       <div class="intro">
         Hi, I'm Brett Perry.
       </div>
+      <div class="about">
+        <p>I began learning software so I can understand the world today, and most importantly understand the world tomorrow.</p>
+      </div>
     </div>
     
-    <!-- About Me Container -->
-    <div class="flex-container-1">
-      <div class="flex-box-1">
-        <h3>Education</h3>
+
+    <!---------------------------- Projects ---------------------------->
+    <div class="section-title">
+      <h3>Projects</h3>
+      <div class="cards">
+        <div class="card">
+          <img src="./resources/images/code_icon.png" alt="website" class="card-img">
+          <div class="card-details">
+            <div class="name">Portfolio Website</div>
+            <p>You're looking at it!</p>
+          </div>
+        </div>
       </div>
-      <div class="flex-box-1">
-        <h3>Career</h3>
+    </div>
+
+    <!---------------------------- Education ---------------------------->
+    <div class="section-title">
+      <h3>Education & Certs</h3>
+    </div>
+    <div class="cards"> <!-- flexbox parent-->
+      <div class="card"> <!-- flexbox child-->
+        <img class="card-img" src="./resources/images/shsu.png" alt="ASU">
+        <div class="card-details">
+          <div class="name">Sam Houston State University</div>
+          <p>B.S. Industrial Technology</p>
+        </div>
+        <div class="status">
+          <span class="tag">Completed | 2011</span>
+        </div>
       </div>
-      <div class="flex-box-1">
-        <h3>Web Works</h3>
+      <div class="card"> <!-- flexbox child-->
+        <img class="card-img" src="./resources/images/asu.png" alt="ASU">
+        <div class="card-details">
+          <div class="name">Arizona State University</div>
+          <p>B.S. Software Engineering</p>
+        </div>
+        <div class="status">
+          <span class="tag">In Progress | 75%</span>
+        </div>
+      </div>
+      <div class="card"> <!-- flexbox child-->
+        <img class="card-img" src="./resources/images/codecademy.png" alt="Codecademy">
+        <div class="card-details">
+          <div class="name">Codecademy</div>
+          <p>Certificate: Build Websites with HTML, CSS, & GitHub Pages</p>
+        </div>
+        <div class="status" id="complete">
+          <span class="tag">Completed | 2022</span>
+        </div>
       </div>
     </div>
   </body>
 </html>
-
-<!-- 
-<img src="./resources/bootstrap/icons/github.svg" alt="github" height="64px" width="64px">
-<img src="./resources/bootstrap/icons/linkedin.svg" alt="linkedin" height="64px" width="64px">
-
-
--->
